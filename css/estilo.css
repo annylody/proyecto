@@ -1,0 +1,23 @@
+body { background-color: #dec8ab ;}
+h1 { font-family: monospace;text-align: center; text-shadow: 3px 4px white; font-size: 300%;
+background-image: url("https://i0.wp.com/www.arabamerica.com/wp-content/uploads/2014/12/gluten-free-turkish-takeaway-falafel.jpg"); }
+
+p .foto {width:20em; height : 10em ;}
+.lineas {background-color:#f5deb3 ;}
+h2 {text-decoration: dashed underline overline; }
+h3 { color: #80461b; background-color : #f5deb3; font-family: cursive;text-decoration:underline; color:#80461b;}
+.raya {text-decoration-style:dotted;}
+.fuente {font-family:verdana;font-size: 100%; mix-blendmode:hard-light;
+
+  border: 5px ridge #c19a6b;
+      background-color:#b08245  ;
+      padding: .5rem;
+      display: flex;
+      flex-direction: column;
+}
+
+div {border-width:10em; height:inherit;}
+
+.letra {font-family: initial;background-color: #c7a170 ;}
+
+h4 {text-decoration:underline dotted;}
