@@ -9,7 +9,7 @@ h3 { color: #80461b; background-color : #f5deb3; font-family: cursive;text-decor
 .raya {text-decoration-style:dotted;}
 .fuente {font-family:verdana;font-size: 100%; mix-blendmode:hard-light;
 
-  border: 5px ridge #c19a6b;
+  border: 5px ridge #fae4cc;
       background-color:#b08245  ;
       padding: .5rem;
       display: flex;
@@ -21,3 +21,38 @@ div {border-width:10em; height:inherit;}
 .letra {font-family: initial;background-color: #c7a170 ;}
 
 h4 {text-decoration:underline dotted;}
+
+
+header {background-color: #ebd4b4; }
+nav {background-color: #c3ac8c;
+}
+
+section{ background-color: white;
+float: left;
+width: 48% ;
+height: 850px;
+overflow: auto;
+margin: 1%;
+border: 2px dotted white;
+box-sizing: border-box;
+}
+
+
+
+
+aside{ background-color:#ebd4b4;
+float: left;
+width: 48%;
+height: 500px;
+overflow: scroll;
+margin: 1%;
+border: 2px solid black;
+box-sizing: border-box;
+}
+
+footer {background-color: #b97836;clear: both;}
+
+.icono { position: fixed;
+top: 70%;
+right: 2%;
+}
