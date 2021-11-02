@@ -54,5 +54,30 @@ footer {background-color: #b97836;clear: both;}
 
 .icono { position: fixed;
 top: 70%;
-right: 2%;
+right: 1%;
 }
+
+section.falafel { width:50%;
+height:70%; background-color: #dec8ab ;
+}
+img .falafel { width: 100%; background-color: red ; }
+
+
+a:visited { color: white;
+}
+a:hover{ background-color: green;
+font-size: 20px;}
+
+
+.formulario{background-color:  #c3ac8c  ;
+color:  #a04000  ; font-family: monospace; font-size : 1.2em;}
+
+section.falafel :hover {width: 50%;}
+
+section .foto :hover {width: 30%;}
+
+.letra :hover{ width: 40%;}
+   .icono:hover {background-color: red;}
+.fuente :hover{ color: white;}
+
+footer::after { content:" cristobal colon ";}
