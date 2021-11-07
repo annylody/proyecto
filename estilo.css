@@ -1,0 +1,116 @@
+
+@font-face {font-family: "dream";
+src: url("../fuentes/DreamRoad.ttf")
+format("truetype")
+}
+@font-face {font-family :"cotton";
+src: url("../fuentes/CottonButter.ttf")
+format("truetype")
+ }
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+body { background-color: #dec8ab ;}
+h1 { font-family: monospace;text-align: center; text-shadow: 3px 4px white; font-size: 300%;
+background-image: url("https://i0.wp.com/www.arabamerica.com/wp-content/uploads/2014/12/gluten-free-turkish-takeaway-falafel.jpg"); }
+
+p .foto {width:20em; height : 10em ;}
+.lineas {background-color:#f5deb3 ;}
+h2 {text-decoration: dashed underline overline; font-size: 1rem;}
+h3 { color: #80461b; background-color : #f5deb3; font-family: cursive;text-decoration:underline; color:#80461b;}
+.raya {text-decoration-style:dotted;}
+.fuente {font-family:verdana;font-size: 100%; mix-blendmode:hard-light;
+
+  border: 5px ridge #fae4cc;
+      background-color:#b08245  ;
+      padding: .5rem;
+      display: flex;
+      flex-direction: column;
+}
+
+div {border-width:10em; height:inherit;}
+
+.letra {font-family: initial;background-color: #c7a170 ;}
+
+h4 {text-decoration:underline dotted;}
+
+
+header {background-color: #ebd4b4; }
+nav {background-color: #c3ac8c;
+}
+
+section{ background-color: white;
+float: left;
+width: 48% ;
+height: 850px;
+overflow: auto;
+margin: 1%;
+border: 2px dotted white;
+box-sizing: border-box;
+}
+
+
+
+
+aside{ background-color:#ebd4b4;
+float: left;
+width: 48%;
+height: 500px;
+overflow: scroll;
+margin: 1%;
+border: 2px solid black;
+box-sizing: border-box;
+}
+
+footer {background-color: #b97836;clear: both;}
+
+.icono { position: fixed;
+top: 70%;
+right: 1%;
+}
+
+section.falafel { width:30%;
+height:60%; background-color: #dec8ab ;
+}
+img .falafel { width: 100%; background-color: red ; }
+
+
+a:visited { color: white;
+}
+a:hover{ background-color: green;
+font-size: 20px;}
+
+
+.formulario{background-color:  #c3ac8c  ;
+color:  #a04000  ; font-family: monospace; font-size : 1.2em;}
+
+section.falafel :hover {width: 50%;}
+
+section .foto :hover {width: 30%;}
+
+.letra :hover{ width: 40%;}
+   .icono:hover {background-color:  #c3ac8c;}
+.fuente :hover{ color: white;}
+
+footer::after { content:" pagina realizada en potrero digital ";}
+
+section {width: 30vw;}
+aside {width: 20vw;}
+footer{width: 80vw;height: 10vw;}
+ .falafel{ font-size: 5%;}
+ header {width: 100vw;}
+ .icono {font-size: 5%; }
+ .icono ::after { content: " contactanos";}
+
+ h2 {font-size: 2rem;}
+ section { font-size: 1.5rem;}
+ .fuente {font-size: 1rem;}
+ .letra {font-size: 2rem;}
+
+
+.letra {font-family: 'Oswald', sans-serif;}
+h2 {font-family: 'Dancing Script', cursive;}
+.raya {font-family: 'Fruktur', cursive;}
+
+section { font-family:"dream";}
