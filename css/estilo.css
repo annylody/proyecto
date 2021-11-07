@@ -1,10 +1,23 @@
+
+@font-face {font-family: "dream";
+src: url("../fuentes/DreamRoad.ttf")
+format("truetype")
+}
+@font-face {font-family :"cotton";
+src: url("../fuentes/CottonButter.ttf")
+format("truetype")
+ }
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
 body { background-color: #dec8ab ;}
 h1 { font-family: monospace;text-align: center; text-shadow: 3px 4px white; font-size: 300%;
 background-image: url("https://i0.wp.com/www.arabamerica.com/wp-content/uploads/2014/12/gluten-free-turkish-takeaway-falafel.jpg"); }
 
 p .foto {width:20em; height : 10em ;}
 .lineas {background-color:#f5deb3 ;}
-h2 {text-decoration: dashed underline overline; }
+h2 {text-decoration: dashed underline overline; font-size: 1rem;}
 h3 { color: #80461b; background-color : #f5deb3; font-family: cursive;text-decoration:underline; color:#80461b;}
 .raya {text-decoration-style:dotted;}
 .fuente {font-family:verdana;font-size: 100%; mix-blendmode:hard-light;
@@ -57,8 +70,8 @@ top: 70%;
 right: 1%;
 }
 
-section.falafel { width:50%;
-height:70%; background-color: #dec8ab ;
+section.falafel { width:30%;
+height:60%; background-color: #dec8ab ;
 }
 img .falafel { width: 100%; background-color: red ; }
 
@@ -77,7 +90,27 @@ section.falafel :hover {width: 50%;}
 section .foto :hover {width: 30%;}
 
 .letra :hover{ width: 40%;}
-   .icono:hover {background-color: red;}
+   .icono:hover {background-color:  #c3ac8c;}
 .fuente :hover{ color: white;}
 
-footer::after { content:" cristobal colon ";}
+footer::after { content:" pagina realizada en potrero digital ";}
+
+section {width: 30vw;}
+aside {width: 20vw;}
+footer{width: 80vw;height: 10vw;}
+ .falafel{ font-size: 5%;}
+ header {width: 100vw;}
+ .icono {font-size: 5%; }
+ .icono ::after { content: " contactanos";}
+
+ h2 {font-size: 2rem;}
+ section { font-size: 1.5rem;}
+ .fuente {font-size: 1rem;}
+ .letra {font-size: 2rem;}
+
+
+.letra {font-family: 'Oswald', sans-serif;}
+h2 {font-family: 'Dancing Script', cursive;}
+.raya {font-family: 'Fruktur', cursive;}
+
+section { font-family:"dream";}
