@@ -49,8 +49,7 @@ header {border: 2px solid blue;
 
 nav{border: 1px solid blue;
   background-color: #c3ac8c;padding: 10px 10px 10px 10px;
-margin: 20px 10px 10px 10px;
-display: inline-block;}
+margin: 20px 10px 10px 10px;}
 
 
 
@@ -61,15 +60,13 @@ color:  #a04000  ; font-family: monospace; font-size : 1.2em;}
 
 
 
-section{border: 2px solid blue;}
-{ background-color: white;
+section{ background-color: white;
 float: left;
-width: 48% ;
+width: 30% ;
 height: 850px;
 overflow: auto;
 margin: 1%;
 border: 2px dotted white;
-box-sizing: border-box;padding: 10px 10px 20px 10px;
 margin: 10px 10px 10px 10px;
 }
 
@@ -77,13 +74,12 @@ margin: 10px 10px 10px 10px;
 
 .falafel
 {
-   width:60%;
+   width:50%;
 height:60%; background-color: #dec8ab ;font-size: 5%;}
 
 .falafel {text-align:center;
   background-color: red;
-flex: 10%;
-padding: 20px;
+padding:10px 10px 10px 5px ;
 justify-content: space-around;}
 
 @media ( max-width:575px) {
@@ -94,12 +90,6 @@ img .falafel { width: 100%; background-color: red ; }
 
 
 
-div{
-  border :1px solid blue;}
-
-{padding: 10px 10px 20px 10px;
-margin: 10px 10px 10px 10px;
-background-color: pink;}
 
 @media (max-width: 575px) {
   div{width: 50vw;}
@@ -128,13 +118,9 @@ font-size: 20px;}
 
 
 
-aside{ border: 2px solid black;}
-{padding: 10px 10px 20px 10px;
+aside{ padding: 10px 10px 20px 10px;
 margin: 10px 10px 10px 10px;
 justify-content: space-between;
-display: flex;
-width: 30%;
-float: left;
 overflow: scroll;
 box-sizing: border-box;
 }
@@ -146,17 +132,12 @@ width: 60%;}
 }
 
 @media (max-width:575px) {
-  .video{width: 50%;}}
+  .video{width: 30%;}
+}
 
-  .video{
-border: 2px solid red;}
 
-footer {border: 2px solid blue;}{  padding: 10px 10px 20px 10px;
-  margin: 10px 0px 10px 10px;}
-  footer::after { content:" pagina realizada en potrero digital ";}
-
-.wallpaper {border: 2px solid green;
-width: 50%;}
+.wallpaper {border: 2px solid red;
+width: 20%;}
 .wallpaper {display: none;}
 
 .musica { border: 2px solid yellow; }
@@ -164,3 +145,46 @@ width: 50%;}
 @media ( max-width:992px)  {
   .wallpaper {display: block;}
 }
+
+
+
+
+
+
+.card-text{ font-family: sans-serif;}
+.card-title{ font-size: 2rem;}
+
+
+
+@media  (max-width :992px){
+  .container{background-color: pink;
+  }
+
+}
+
+
+
+@media  (max-width :768px){
+  .container{background-color: blue;
+    width: 20rem;
+  }
+
+}
+
+
+
+
+
+@media (max-width : 575px ) {
+  .container {background-color: red;
+    flex-direction: column;
+  }
+
+}
+
+
+footer
+{
+   padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;}
+  footer::after { content:" pagina realizada en potrero digital ";}
