@@ -1,58 +1,190 @@
+
+@font-face {font-family: "dream";
+src: url("../fuentes/DreamRoad.ttf")
+format("truetype")
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 body { background-color: #dec8ab ;}
+
+
 h1 { font-family: monospace;text-align: center; text-shadow: 3px 4px white; font-size: 300%;
 background-image: url("https://i0.wp.com/www.arabamerica.com/wp-content/uploads/2014/12/gluten-free-turkish-takeaway-falafel.jpg"); }
 
 p .foto {width:20em; height : 10em ;}
 .lineas {background-color:#f5deb3 ;}
-h2 {text-decoration: dashed underline overline; }
+h2 {text-decoration: dashed underline overline; font-size: 1rem;}
 h3 { color: #80461b; background-color : #f5deb3; font-family: cursive;text-decoration:underline; color:#80461b;}
 .raya {text-decoration-style:dotted;}
 .fuente {font-family:verdana;font-size: 100%; mix-blendmode:hard-light;
-
-  border: 5px ridge #fae4cc;
-      background-color:#b08245  ;
-      padding: .5rem;
-      display: flex;
-      flex-direction: column;
 }
 
-div {border-width:10em; height:inherit;}
+  div {border-width:10em; height:inherit;}
 
-.letra {font-family: initial;background-color: #c7a170 ;}
+  .letra {font-family: initial;background-color: #c7a170 ;}
 
-h4 {text-decoration:underline dotted;}
+  h4 {text-decoration:underline dotted;}
 
 
-header {background-color: #ebd4b4; }
-nav {background-color: #c3ac8c;
+
+header{background-color: #ebd4b4;width: 100vw;}
+header {border: 2px solid blue;
 }
+ @media (max-width:992px) {
+   header {background-color: green;}
+ }
+   @media (max-width: 768px) {
+     header {background-color: yellow;}
+   }
+
+   @media (max-width: 575px) {
+   header {background-color: red;}
+}
+
+
+
+nav{border: 1px solid blue;
+  background-color: #c3ac8c;padding: 10px 10px 10px 10px;
+margin: 20px 10px 10px 10px;}
+
+
+
+
+
+.formulario{background-color:  #c3ac8c  ;
+color:  #a04000  ; font-family: monospace; font-size : 1.2em;}
+
+
 
 section{ background-color: white;
 float: left;
-width: 48% ;
+width: 30% ;
 height: 850px;
 overflow: auto;
 margin: 1%;
 border: 2px dotted white;
-box-sizing: border-box;
+margin: 10px 10px 10px 10px;
 }
 
 
 
+.falafel
+{
+   width:50%;
+height:60%; background-color: #dec8ab ;font-size: 5%;}
 
-aside{ background-color:#ebd4b4;
-float: left;
-width: 48%;
-height: 500px;
+.falafel {text-align:center;
+  background-color: red;
+padding:10px 10px 10px 5px ;
+justify-content: space-around;}
+
+@media ( max-width:575px) {
+.falafel{ background-color: blue;}
+}
+
+img .falafel { width: 100%; background-color: red ; }
+
+
+
+
+@media (max-width: 575px) {
+  div{width: 50vw;}
+}
+
+ div{ font-family:"dream";}
+
+ .receta { font-size: 1.2rem;}
+
+.letra :hover{ width: 40%;}
+
+
+ .icono { position: fixed;
+ top: 70%;
+ right: 1%;
+ width: 5rem;}
+
+.icono:hover {background-color: white;}
+
+
+a:visited { color: white;
+}
+a:hover{ background-color: green;
+font-size: 20px;}
+
+
+
+
+aside{ padding: 10px 10px 20px 10px;
+margin: 10px 10px 10px 10px;
+justify-content: space-between;
 overflow: scroll;
-margin: 1%;
-border: 2px solid black;
 box-sizing: border-box;
 }
 
-footer {background-color: #b97836;clear: both;}
 
-.icono { position: fixed;
-top: 70%;
-right: 2%;
+@media ( max-width:992px) {
+aside{ background-color: blue;
+width: 60%;}
 }
+
+@media (max-width:575px) {
+  .video{width: 30%;}
+}
+
+
+.wallpaper {border: 2px solid red;
+width: 20%;}
+.wallpaper {display: none;}
+
+.musica { border: 2px solid yellow; }
+
+@media ( max-width:992px)  {
+  .wallpaper {display: block;}
+}
+
+
+
+
+
+
+.card-text{ font-family: sans-serif;}
+.card-title{ font-size: 2rem;}
+
+
+
+@media  (max-width :992px){
+  .container{background-color: pink;
+  }
+
+}
+
+
+
+@media  (max-width :768px){
+  .container{background-color: blue;
+    width: 20rem;
+  }
+
+}
+
+
+
+
+
+@media (max-width : 575px ) {
+  .container {background-color: red;
+    flex-direction: column;
+  }
+
+}
+
+
+footer
+{
+   padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;}
+  footer::after { content:" pagina realizada en potrero digital ";}
