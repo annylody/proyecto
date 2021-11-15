@@ -80,15 +80,15 @@ margin: 10px 10px 10px 10px;
 height:60%; background-color: #dec8ab ;font-size: 5%;}
 
 .falafel {text-align:center;
-  background-color: red;
+  background-color:#d2691e ;
 padding:10px 10px 10px 5px ;
 justify-content: space-around;}
 
 @media ( max-width:575px) {
-.falafel{ background-color: blue;}
+.falafel{ background-color: grey;}
 }
 
-img .falafel { width: 100%; background-color: red ; }
+img .falafel { width: 100%; background-color: black ; }
 
 
 
@@ -117,7 +117,7 @@ img .falafel { width: 100%; background-color: red ; }
 
 a:visited { color: white;
 }
-a:hover{ background-color: green;
+a:hover{ background-color: grey;
 font-size: 20px;}
 
 
@@ -132,7 +132,7 @@ box-sizing: border-box;
 
 
 @media ( max-width:992px) {
-aside{ background-color: blue;
+aside{ background-color: black;
 width: 60%;}
 }
 
@@ -141,11 +141,11 @@ width: 60%;}
 }
 
 
-.wallpaper {border: 2px solid red;
+.wallpaper {border: 2px solid grey;
 width: 20%;}
 .wallpaper {display: none;}
 
-.musica { border: 2px solid yellow; }
+.musica { border: 2px solid grey; }
 
 @media ( max-width:992px)  {
   .wallpaper {display: block;}
@@ -155,14 +155,15 @@ width: 20%;}
 
 
 
-
-.card-text{ font-family: sans-serif;}
+.card{ background-color: grey;}
+.card-text{ font-family: sans-serif;
+}
 .card-title{ font-size: 2rem;}
 
 
 
 @media  (max-width :992px){
-  .container{background-color: pink;
+  .container{background-color:black;
   }
 
 }
@@ -170,7 +171,7 @@ width: 20%;}
 
 
 @media  (max-width :768px){
-  .container{background-color: blue;
+  .container{background-color: grey;
     width: 20rem;
   }
 
@@ -181,7 +182,7 @@ width: 20%;}
 
 
 @media (max-width : 575px ) {
-  .container {background-color: red;
+  .container {background-color: black;
     flex-direction: column;
   }
 
@@ -194,6 +195,8 @@ width: 20%;}
 
 footer
 {font-size: 2rem;
+  color: white;
+  background-color:grey ;
    padding: 10px 10px 10px 10px;
   margin: 10px 10px 10px 10px;}
   footer::after { content:" pagina realizada en potrero digital ";}
