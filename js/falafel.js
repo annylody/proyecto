@@ -8,7 +8,7 @@ function cartelito (){
 }
 
 function cambiarfondo (){ document.body.style.backgroundColor = "black";
- document.body.style.color = "black";
+ document.body.style.color = "white ";
 }
 
 
